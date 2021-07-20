@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiquidPoc.Domain", "LiquidPoc.Domain\LiquidPoc.Domain.csproj", "{91A4EF66-7E7A-4FD4-9351-BF0BCD321C98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{C9D8799A-082B-4EDA-B89A-53A400325922}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiquidPoc.Application", "LiquidPoc.Application\LiquidPoc.Application.csproj", "{010FFBDE-ED85-41A1-B0A0-49E81BF04652}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Application", "1-Application", "{7FB64C29-5E74-4A68-9B4E-0D629B4CF58B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiquidPoc.Service", "LiquidPoc.Service\LiquidPoc.Service.csproj", "{F3528356-7ABD-4FF9-B845-8BE208091DD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Service", "3-Service", "{1129E20E-08BF-4D7A-8402-D5AC9B30C7CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{D65AB953-CAD4-4577-BC50-A86B0F238790}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1-Data", "4.1-Data", "{E0287FCB-9293-4D85-9D03-EDF8827CADEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiquidPoc.Infra.Data", "LiquidPoc.Infra.Data\LiquidPoc.Infra.Data.csproj", "{109CF315-E3B6-487D-8C05-F67E0F04534A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2-CrossCutting", "4.2-CrossCutting", "{C5AB9201-FA14-42F9-85AC-BD5B2FBF9E37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiquidPoc.Infra.CrossCutting", "LiquidPoc.Infra.CrossCutting\LiquidPoc.Infra.CrossCutting.csproj", "{17BD23A8-82E0-47A2-BB54-409F096B1B9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.3-ServiceClient", "4.3-ServiceClient", "{76BF0798-B16F-43BF-88CF-5CD88A338F78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiquidPoc.Infra.ServiceClient", "LiquidPoc.Infra.ServiceClient\LiquidPoc.Infra.ServiceClient.csproj", "{DF23694C-45D5-4150-AB5D-0FC08690CC06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91A4EF66-7E7A-4FD4-9351-BF0BCD321C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A4EF66-7E7A-4FD4-9351-BF0BCD321C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A4EF66-7E7A-4FD4-9351-BF0BCD321C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A4EF66-7E7A-4FD4-9351-BF0BCD321C98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{010FFBDE-ED85-41A1-B0A0-49E81BF04652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010FFBDE-ED85-41A1-B0A0-49E81BF04652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010FFBDE-ED85-41A1-B0A0-49E81BF04652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010FFBDE-ED85-41A1-B0A0-49E81BF04652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3528356-7ABD-4FF9-B845-8BE208091DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3528356-7ABD-4FF9-B845-8BE208091DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3528356-7ABD-4FF9-B845-8BE208091DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3528356-7ABD-4FF9-B845-8BE208091DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{109CF315-E3B6-487D-8C05-F67E0F04534A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109CF315-E3B6-487D-8C05-F67E0F04534A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109CF315-E3B6-487D-8C05-F67E0F04534A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109CF315-E3B6-487D-8C05-F67E0F04534A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17BD23A8-82E0-47A2-BB54-409F096B1B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17BD23A8-82E0-47A2-BB54-409F096B1B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17BD23A8-82E0-47A2-BB54-409F096B1B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17BD23A8-82E0-47A2-BB54-409F096B1B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF23694C-45D5-4150-AB5D-0FC08690CC06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF23694C-45D5-4150-AB5D-0FC08690CC06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF23694C-45D5-4150-AB5D-0FC08690CC06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF23694C-45D5-4150-AB5D-0FC08690CC06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91A4EF66-7E7A-4FD4-9351-BF0BCD321C98} = {C9D8799A-082B-4EDA-B89A-53A400325922}
+		{010FFBDE-ED85-41A1-B0A0-49E81BF04652} = {7FB64C29-5E74-4A68-9B4E-0D629B4CF58B}
+		{F3528356-7ABD-4FF9-B845-8BE208091DD3} = {1129E20E-08BF-4D7A-8402-D5AC9B30C7CC}
+		{E0287FCB-9293-4D85-9D03-EDF8827CADEA} = {D65AB953-CAD4-4577-BC50-A86B0F238790}
+		{109CF315-E3B6-487D-8C05-F67E0F04534A} = {E0287FCB-9293-4D85-9D03-EDF8827CADEA}
+		{C5AB9201-FA14-42F9-85AC-BD5B2FBF9E37} = {D65AB953-CAD4-4577-BC50-A86B0F238790}
+		{17BD23A8-82E0-47A2-BB54-409F096B1B9A} = {C5AB9201-FA14-42F9-85AC-BD5B2FBF9E37}
+		{76BF0798-B16F-43BF-88CF-5CD88A338F78} = {D65AB953-CAD4-4577-BC50-A86B0F238790}
+		{DF23694C-45D5-4150-AB5D-0FC08690CC06} = {76BF0798-B16F-43BF-88CF-5CD88A338F78}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {230C45EE-B6B5-4CB8-B2BB-925FFB1E16EC}
+	EndGlobalSection
+EndGlobal

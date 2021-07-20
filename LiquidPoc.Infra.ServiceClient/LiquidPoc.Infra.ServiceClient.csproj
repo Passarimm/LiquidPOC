@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Liquid.Services" Version="2.0.1-alpha" />
+    <PackageReference Include="Liquid.Services.Http" Version="2.0.1-alpha" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LiquidPoc.Domain\LiquidPoc.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

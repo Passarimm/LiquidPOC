@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DI\**" />
+    <EmbeddedResource Remove="DI\**" />
+    <None Remove="DI\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Commands\ExceptionResponse.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Liquid.Cache.Redis" Version="2.0.3-alpha" />
+    <PackageReference Include="Liquid.Domain" Version="2.0.2-alpha" />
+    <PackageReference Include="Liquid.Messaging" Version="2.0.2-alpha" />
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="5.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LiquidPoc.Domain\LiquidPoc.Domain.csproj" />
+    <ProjectReference Include="..\LiquidPoc.Infra.CrossCutting\LiquidPoc.Infra.CrossCutting.csproj" />
+  </ItemGroup>
+
+</Project>

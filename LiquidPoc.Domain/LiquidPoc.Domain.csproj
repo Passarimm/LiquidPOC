@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="Settings\RedisSettigs.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.2.3" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LiquidPoc.Infra.CrossCutting\LiquidPoc.Infra.CrossCutting.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Settings\" />
+  </ItemGroup>
+
+</Project>
