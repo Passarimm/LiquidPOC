@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Liquid.Services" Version="2.0.1-alpha" />
-    <PackageReference Include="Liquid.Services.Http" Version="2.0.1-alpha" />
+    <PackageReference Include="Liquid.Services" Version="2.0.0-alpha" />
+    <PackageReference Include="Liquid.Services.Http" Version="2.0.0-alpha" />
   </ItemGroup>
 
   <ItemGroup>

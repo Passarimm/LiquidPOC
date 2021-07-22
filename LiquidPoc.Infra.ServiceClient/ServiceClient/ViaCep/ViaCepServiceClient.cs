@@ -35,7 +35,7 @@ namespace LiquidPoc.Infra.ServiceClient.ServiceClient.ViaCep
                            ILoggerFactory loggerFactory,
                            ILightContextFactory contextFactory,
                            ILightTelemetryFactory telemetryFactory,
-                           ILightServiceConfiguration<LightServiceSetting> serviceSettings,
+                           ILightConfiguration<List<LightServiceSetting>> serviceSettings,
                            IMapper mapperService) : 
             base(httpClientFactory, loggerFactory, contextFactory, telemetryFactory, serviceSettings, mapperService)
         {
